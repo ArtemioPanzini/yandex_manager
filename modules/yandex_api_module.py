@@ -105,30 +105,41 @@ def get_orders_response(campaign_id, start=1, end=30) -> tuple:
 # Функция для преобразования ответа API в список словарей
 def get_orders_json(data) -> list:
     logger.info('Начало работы функции get_orders_json')
-    order, warehouse_id = data
-    orders = order.get("orders", [])
-    result = []
-    for order in orders:
-        order_id = order.get("id")
-        items = order.get("items", [])
-        for item in items:
-            offer_id = item.get("offerId")
-            count = item.get("count")
-            result.append({"warehouse_id": warehouse_id, "order_id": order_id, "offer_id": offer_id, "count": count})
-    logger.debug('Завершение работы функции get_orders_response')
-    return result
+
+    try:
+        order, warehouse_id = data
+        orders = order.get("orders", [])
+        result = []
+        for order in orders:
+            order_id = order.get("id")
+            items = order.get("items", [])
+            for item in items:
+                offer_id = item.get("offerId")
+                count = item.get("count")
+                result.append({"warehouse_id": warehouse_id, "order_id": order_id, "offer_id": offer_id, "count": count})
+        logger.debug('Завершение работы функции get_orders_json')
+        return result
+
+    except Exception as e:
+        logger.critical('Функция get_orders_json не сработала')
+        logger.error(f'Функция get_orders_json ошибка {e}')
+        return []
 
 
 # Функция для получения списка заказов для данного бизнес-идентификатора за определенные даты
 def take_orders(business_id, start=1, end=30) -> list:
     logger.info('Начало работы функции take_orders')
-    warehouse_list = get_warehouses(business_id)
-    response = apply_function_to_list(warehouse_list, get_orders_response, start, end)
-    orders = apply_function_to_list(response, get_orders_json)
-    orders = list(itertools.chain.from_iterable(orders))
-    logger.debug('Завершение работы функции get_orders_response')
-    return orders
-
+    try:
+        warehouse_list = get_warehouses(business_id)
+        response = apply_function_to_list(warehouse_list, get_orders_response, start, end)
+        orders = apply_function_to_list(response, get_orders_json)
+        orders = list(itertools.chain.from_iterable(orders))
+        logger.debug('Завершение работы функции get_orders_response')
+        return orders
+    except Exception as e:
+        logger.critical('Функция take_orders не сработала')
+        logger.error(f'Функция take_orders ошибка {e}')
+        return []
 
 # Функция для отправки запроса на обновление запасов
 def send_request(campaign_id, offer_ids) -> dict:

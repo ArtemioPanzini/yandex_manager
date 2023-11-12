@@ -1,0 +1,76 @@
+2023-11-12 23:56:25,219 - INFO - Начало работы telegram
+2023-11-12 23:56:25,219 - INFO - Начало работы telegram
+2023-11-12 23:56:25,219 - INFO - Начало работы telegram
+2023-11-12 23:56:39,240 - INFO - Начало работы функции process_orders_to_tg
+2023-11-12 23:56:39,240 - INFO - Начало работы функции process_orders_to_tg
+2023-11-12 23:56:39,240 - INFO - Начало работы функции process_orders_to_tg
+2023-11-12 23:56:39,240 - INFO - Начало работы функции process_orders_to_tg
+2023-11-12 23:56:39,245 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-12 23:56:39,245 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-12 23:56:39,245 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-12 23:56:39,245 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-12 23:56:39,289 - INFO - Функция send_telegram_messages_async не отправили сообщения в телеграмм, нечего отправлять
+2023-11-12 23:56:39,289 - INFO - Функция send_telegram_messages_async не отправили сообщения в телеграмм, нечего отправлять
+2023-11-12 23:56:39,289 - INFO - Функция send_telegram_messages_async не отправили сообщения в телеграмм, нечего отправлять
+2023-11-12 23:56:39,289 - INFO - Функция send_telegram_messages_async не отправили сообщения в телеграмм, нечего отправлять
+2023-11-12 23:56:39,289 - DEBUG - Функции send_telegram_messages_async завершение работы 
+2023-11-12 23:56:39,289 - DEBUG - Функции send_telegram_messages_async завершение работы 
+2023-11-12 23:56:39,289 - DEBUG - Функции send_telegram_messages_async завершение работы 
+2023-11-12 23:56:39,289 - DEBUG - Функции send_telegram_messages_async завершение работы 
+2023-11-13 00:08:13,683 - INFO - Начало работы telegram
+2023-11-13 00:08:13,683 - INFO - Начало работы telegram
+2023-11-13 00:08:13,683 - INFO - Начало работы telegram
+2023-11-13 00:08:29,082 - INFO - Начало работы функции process_orders_to_tg
+2023-11-13 00:08:29,082 - INFO - Начало работы функции process_orders_to_tg
+2023-11-13 00:08:29,082 - INFO - Начало работы функции process_orders_to_tg
+2023-11-13 00:08:29,082 - INFO - Начало работы функции process_orders_to_tg
+2023-11-13 00:08:29,082 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-13 00:08:29,082 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-13 00:08:29,082 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-13 00:08:29,082 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-13 00:08:29,083 - INFO - Функция send_telegram_messages_async не отправили сообщения в телеграмм, нечего отправлять
+2023-11-13 00:08:29,083 - INFO - Функция send_telegram_messages_async не отправили сообщения в телеграмм, нечего отправлять
+2023-11-13 00:08:29,083 - INFO - Функция send_telegram_messages_async не отправили сообщения в телеграмм, нечего отправлять
+2023-11-13 00:08:29,083 - INFO - Функция send_telegram_messages_async не отправили сообщения в телеграмм, нечего отправлять
+2023-11-13 00:08:29,084 - DEBUG - Функции send_telegram_messages_async завершение работы 
+2023-11-13 00:08:29,084 - DEBUG - Функции send_telegram_messages_async завершение работы 
+2023-11-13 00:08:29,084 - DEBUG - Функции send_telegram_messages_async завершение работы 
+2023-11-13 00:08:29,084 - DEBUG - Функции send_telegram_messages_async завершение работы 
+2023-11-13 00:08:33,612 - INFO - Начало работы telegram
+2023-11-13 00:08:33,612 - INFO - Начало работы telegram
+2023-11-13 00:08:33,612 - INFO - Начало работы telegram
+2023-11-13 00:08:38,960 - INFO - Начало работы функции process_orders_to_tg
+2023-11-13 00:08:38,960 - INFO - Начало работы функции process_orders_to_tg
+2023-11-13 00:08:38,960 - INFO - Начало работы функции process_orders_to_tg
+2023-11-13 00:08:38,960 - INFO - Начало работы функции process_orders_to_tg
+2023-11-13 00:08:38,960 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-13 00:08:38,960 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-13 00:08:38,960 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-13 00:08:38,960 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-13 00:08:38,961 - INFO - Функция send_telegram_messages_async не отправили сообщения в телеграмм, нечего отправлять
+2023-11-13 00:08:38,961 - INFO - Функция send_telegram_messages_async не отправили сообщения в телеграмм, нечего отправлять
+2023-11-13 00:08:38,961 - INFO - Функция send_telegram_messages_async не отправили сообщения в телеграмм, нечего отправлять
+2023-11-13 00:08:38,961 - INFO - Функция send_telegram_messages_async не отправили сообщения в телеграмм, нечего отправлять
+2023-11-13 00:08:38,962 - DEBUG - Функции send_telegram_messages_async завершение работы 
+2023-11-13 00:08:38,962 - DEBUG - Функции send_telegram_messages_async завершение работы 
+2023-11-13 00:08:38,962 - DEBUG - Функции send_telegram_messages_async завершение работы 
+2023-11-13 00:08:38,962 - DEBUG - Функции send_telegram_messages_async завершение работы 
+2023-11-13 00:08:41,551 - INFO - Начало работы telegram
+2023-11-13 00:08:41,551 - INFO - Начало работы telegram
+2023-11-13 00:08:41,551 - INFO - Начало работы telegram
+2023-11-13 00:08:50,745 - INFO - Начало работы функции process_orders_to_tg
+2023-11-13 00:08:50,745 - INFO - Начало работы функции process_orders_to_tg
+2023-11-13 00:08:50,745 - INFO - Начало работы функции process_orders_to_tg
+2023-11-13 00:08:50,745 - INFO - Начало работы функции process_orders_to_tg
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции process_orders_to_tg
+2023-11-13 00:08:51,610 - INFO - Функция send_telegram_messages_async отправили сообщения в телеграмм
+2023-11-13 00:08:51,610 - INFO - Функция send_telegram_messages_async отправили сообщения в телеграмм
+2023-11-13 00:08:51,610 - INFO - Функция send_telegram_messages_async отправили сообщения в телеграмм
+2023-11-13 00:08:51,610 - INFO - Функция send_telegram_messages_async отправили сообщения в телеграмм
+2023-11-13 00:08:51,610 - DEBUG - Функции send_telegram_messages_async завершение работы 
+2023-11-13 00:08:51,610 - DEBUG - Функции send_telegram_messages_async завершение работы 
+2023-11-13 00:08:51,610 - DEBUG - Функции send_telegram_messages_async завершение работы 
+2023-11-13 00:08:51,610 - DEBUG - Функции send_telegram_messages_async завершение работы 

@@ -1,8 +1,8 @@
 import logging
 import config
 import asyncio
-from modules.yandex_api_module import take_orders, execute_campaign_requests, process_stocks, retrieve_stock_info_from_orders
-from modules.helpers import filter_by_count, group_by_warehouse, group_offers_by_warehouse
+from modules.yandex_api_module import take_orders, process_stocks, retrieve_stock_info_from_orders
+from modules.helpers import filter_by_count
 from tests import test_config_data
 from logs.logging_config import setup_logging  # Импорт функции setup_logging из logging_config.py
 from modules.telegram_api_module import create_telegram_messages_from_orders, send_telegram_messages_async
@@ -18,6 +18,7 @@ logger.info('Начало работы main')
 
 
 def main():
+    logger.info('Начало работы функции main')
     try:
         # Получаем с Яндекса список словарей с заказами
         orders = take_orders(config.business_id)
@@ -36,10 +37,14 @@ def main():
 
         # Отсылаем сообщение
         asyncio.run(send_telegram_messages_async(messages=messages_big_orders))
+        logger.debug('Завершение работы функции main')
         print("success")
 
     except Exception as e:
-        print(f'Произошла ошибка: {e}')
+        logger.critical('Функция main не сработала')
+        logger.error(f'Функция main ошибка {e}')
+        print(e)
+        return None
 
 
 # Press the green button in the gutter to run the script.

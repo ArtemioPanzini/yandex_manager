@@ -1935,3 +1935,1035 @@
 2023-11-12 09:22:03,278 - INFO - Успешно получили список заказов из склада 72582429
 2023-11-12 09:22:03,278 - INFO - Успешно получили список заказов из склада 72582429
 2023-11-12 09:22:03,278 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-12 23:56:21,637 - INFO - Начало работы yandex api module
+2023-11-12 23:56:21,637 - INFO - Начало работы yandex api module
+2023-11-12 23:56:25,220 - INFO - Начало работы функции take_orders
+2023-11-12 23:56:25,220 - INFO - Начало работы функции take_orders
+2023-11-12 23:56:25,220 - INFO - Начало работы функции take_orders
+2023-11-12 23:56:25,220 - INFO - Начало работы функции take_orders
+2023-11-12 23:56:25,220 - INFO - Начало работы функции get_warehouses
+2023-11-12 23:56:25,220 - INFO - Начало работы функции get_warehouses
+2023-11-12 23:56:25,220 - INFO - Начало работы функции get_warehouses
+2023-11-12 23:56:25,220 - INFO - Начало работы функции get_warehouses
+2023-11-12 23:56:25,220 - INFO - Начало работы функции get_warehouses_response
+2023-11-12 23:56:25,220 - INFO - Начало работы функции get_warehouses_response
+2023-11-12 23:56:25,220 - INFO - Начало работы функции get_warehouses_response
+2023-11-12 23:56:25,220 - INFO - Начало работы функции get_warehouses_response
+2023-11-12 23:56:26,171 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-12 23:56:26,171 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-12 23:56:26,171 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-12 23:56:26,171 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-12 23:56:26,171 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-12 23:56:26,171 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-12 23:56:26,171 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-12 23:56:26,171 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-12 23:56:26,172 - INFO - Начало работы функции get_warehouses_list
+2023-11-12 23:56:26,172 - INFO - Начало работы функции get_warehouses_list
+2023-11-12 23:56:26,172 - INFO - Начало работы функции get_warehouses_list
+2023-11-12 23:56:26,172 - INFO - Начало работы функции get_warehouses_list
+2023-11-12 23:56:26,172 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-12 23:56:26,172 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-12 23:56:26,172 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-12 23:56:26,172 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-12 23:56:26,172 - DEBUG - Завершение работы функции get_warehouses
+2023-11-12 23:56:26,172 - DEBUG - Завершение работы функции get_warehouses
+2023-11-12 23:56:26,172 - DEBUG - Завершение работы функции get_warehouses
+2023-11-12 23:56:26,172 - DEBUG - Завершение работы функции get_warehouses
+2023-11-12 23:56:26,172 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:26,172 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:26,172 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:26,172 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:26,527 - INFO - Успешно получили список заказов из склада 75593751
+2023-11-12 23:56:26,527 - INFO - Успешно получили список заказов из склада 75593751
+2023-11-12 23:56:26,527 - INFO - Успешно получили список заказов из склада 75593751
+2023-11-12 23:56:26,527 - INFO - Успешно получили список заказов из склада 75593751
+2023-11-12 23:56:26,527 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:26,527 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:26,527 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:26,527 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:26,528 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:26,528 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:26,528 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:26,528 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:26,929 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-12 23:56:26,929 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-12 23:56:26,929 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-12 23:56:26,929 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-12 23:56:26,929 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:26,929 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:26,929 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:26,929 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:26,930 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:26,930 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:26,930 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:26,930 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:27,215 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-12 23:56:27,215 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-12 23:56:27,215 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-12 23:56:27,215 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-12 23:56:27,215 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:27,215 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:27,215 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:27,215 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:27,217 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:27,217 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:27,217 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:27,217 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:27,631 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-12 23:56:27,631 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-12 23:56:27,631 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-12 23:56:27,631 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-12 23:56:27,631 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:27,631 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:27,631 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:27,631 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:27,631 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:27,631 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:27,631 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:27,631 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:37,645 - CRITICAL - Функция get_orders_response не сработала
+2023-11-12 23:56:37,645 - CRITICAL - Функция get_orders_response не сработала
+2023-11-12 23:56:37,645 - CRITICAL - Функция get_orders_response не сработала
+2023-11-12 23:56:37,645 - CRITICAL - Функция get_orders_response не сработала
+2023-11-12 23:56:37,645 - ERROR - Функция get_orders_response ошибка HTTPSConnectionPool(host='api.partner.market.yandex.ru', port=443): Max retries exceeded with url: /campaigns/68510184/orders?status=PROCESSING&supplierShipmentDateFrom=13-11-2023&supplierShipmentDateTo=12-12-2023 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002DD90B0DDD0>, 'Connection to api.partner.market.yandex.ru timed out. (connect timeout=10)'))
+2023-11-12 23:56:37,645 - ERROR - Функция get_orders_response ошибка HTTPSConnectionPool(host='api.partner.market.yandex.ru', port=443): Max retries exceeded with url: /campaigns/68510184/orders?status=PROCESSING&supplierShipmentDateFrom=13-11-2023&supplierShipmentDateTo=12-12-2023 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002DD90B0DDD0>, 'Connection to api.partner.market.yandex.ru timed out. (connect timeout=10)'))
+2023-11-12 23:56:37,645 - ERROR - Функция get_orders_response ошибка HTTPSConnectionPool(host='api.partner.market.yandex.ru', port=443): Max retries exceeded with url: /campaigns/68510184/orders?status=PROCESSING&supplierShipmentDateFrom=13-11-2023&supplierShipmentDateTo=12-12-2023 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002DD90B0DDD0>, 'Connection to api.partner.market.yandex.ru timed out. (connect timeout=10)'))
+2023-11-12 23:56:37,645 - ERROR - Функция get_orders_response ошибка HTTPSConnectionPool(host='api.partner.market.yandex.ru', port=443): Max retries exceeded with url: /campaigns/68510184/orders?status=PROCESSING&supplierShipmentDateFrom=13-11-2023&supplierShipmentDateTo=12-12-2023 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002DD90B0DDD0>, 'Connection to api.partner.market.yandex.ru timed out. (connect timeout=10)'))
+2023-11-12 23:56:37,645 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:37,645 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:37,645 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:37,645 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:38,004 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-12 23:56:38,004 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-12 23:56:38,004 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-12 23:56:38,004 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-12 23:56:38,004 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:38,004 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:38,004 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:38,004 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:38,005 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:38,005 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:38,005 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:38,005 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:38,507 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-12 23:56:38,507 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-12 23:56:38,507 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-12 23:56:38,507 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-12 23:56:38,508 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:38,508 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:38,508 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:38,508 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:38,509 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:38,509 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:38,509 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:38,509 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:38,894 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-12 23:56:38,894 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-12 23:56:38,894 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-12 23:56:38,894 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-12 23:56:38,894 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:38,894 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:38,894 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:38,894 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:38,895 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:38,895 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:38,895 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:38,895 - INFO - Начало работы функции get_orders_response
+2023-11-12 23:56:39,237 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-12 23:56:39,237 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-12 23:56:39,237 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-12 23:56:39,237 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-12 23:56:39,237 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,237 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,237 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,237 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,239 - INFO - Начало работы функции get_orders_json
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,240 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-12 23:56:39,240 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-12 23:56:39,240 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-12 23:56:39,240 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-12 23:56:39,240 - INFO - Начало работы функции execute_campaign_requests
+2023-11-12 23:56:39,240 - INFO - Начало работы функции execute_campaign_requests
+2023-11-12 23:56:39,240 - INFO - Начало работы функции execute_campaign_requests
+2023-11-12 23:56:39,240 - INFO - Начало работы функции execute_campaign_requests
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции get_orders_response
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-12 23:56:39,240 - INFO - Начало работы функции process_stocks
+2023-11-12 23:56:39,240 - INFO - Начало работы функции process_stocks
+2023-11-12 23:56:39,240 - INFO - Начало работы функции process_stocks
+2023-11-12 23:56:39,240 - INFO - Начало работы функции process_stocks
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции process_stocks
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции process_stocks
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции process_stocks
+2023-11-12 23:56:39,240 - DEBUG - Завершение работы функции process_stocks
+2023-11-13 00:08:12,820 - INFO - Начало работы yandex api module
+2023-11-13 00:08:12,820 - INFO - Начало работы yandex api module
+2023-11-13 00:08:13,683 - INFO - Начало работы функции take_orders
+2023-11-13 00:08:13,683 - INFO - Начало работы функции take_orders
+2023-11-13 00:08:13,683 - INFO - Начало работы функции take_orders
+2023-11-13 00:08:13,683 - INFO - Начало работы функции take_orders
+2023-11-13 00:08:13,684 - INFO - Начало работы функции get_warehouses
+2023-11-13 00:08:13,684 - INFO - Начало работы функции get_warehouses
+2023-11-13 00:08:13,684 - INFO - Начало работы функции get_warehouses
+2023-11-13 00:08:13,684 - INFO - Начало работы функции get_warehouses
+2023-11-13 00:08:13,684 - INFO - Начало работы функции get_warehouses_response
+2023-11-13 00:08:13,684 - INFO - Начало работы функции get_warehouses_response
+2023-11-13 00:08:13,684 - INFO - Начало работы функции get_warehouses_response
+2023-11-13 00:08:13,684 - INFO - Начало работы функции get_warehouses_response
+2023-11-13 00:08:14,107 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-13 00:08:14,107 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-13 00:08:14,107 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-13 00:08:14,107 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-13 00:08:14,108 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:14,108 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:14,108 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:14,108 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:14,110 - INFO - Начало работы функции get_warehouses_list
+2023-11-13 00:08:14,110 - INFO - Начало работы функции get_warehouses_list
+2023-11-13 00:08:14,110 - INFO - Начало работы функции get_warehouses_list
+2023-11-13 00:08:14,110 - INFO - Начало работы функции get_warehouses_list
+2023-11-13 00:08:14,110 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:14,110 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:14,110 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:14,110 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:14,110 - DEBUG - Завершение работы функции get_warehouses
+2023-11-13 00:08:14,110 - DEBUG - Завершение работы функции get_warehouses
+2023-11-13 00:08:14,110 - DEBUG - Завершение работы функции get_warehouses
+2023-11-13 00:08:14,110 - DEBUG - Завершение работы функции get_warehouses
+2023-11-13 00:08:14,110 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:14,110 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:14,110 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:14,110 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:24,116 - CRITICAL - Функция get_orders_response не сработала
+2023-11-13 00:08:24,116 - CRITICAL - Функция get_orders_response не сработала
+2023-11-13 00:08:24,116 - CRITICAL - Функция get_orders_response не сработала
+2023-11-13 00:08:24,116 - CRITICAL - Функция get_orders_response не сработала
+2023-11-13 00:08:24,116 - ERROR - Функция get_orders_response ошибка HTTPSConnectionPool(host='api.partner.market.yandex.ru', port=443): Max retries exceeded with url: /campaigns/75593751/orders?status=PROCESSING&supplierShipmentDateFrom=14-11-2023&supplierShipmentDateTo=13-12-2023 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022172855050>, 'Connection to api.partner.market.yandex.ru timed out. (connect timeout=10)'))
+2023-11-13 00:08:24,116 - ERROR - Функция get_orders_response ошибка HTTPSConnectionPool(host='api.partner.market.yandex.ru', port=443): Max retries exceeded with url: /campaigns/75593751/orders?status=PROCESSING&supplierShipmentDateFrom=14-11-2023&supplierShipmentDateTo=13-12-2023 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022172855050>, 'Connection to api.partner.market.yandex.ru timed out. (connect timeout=10)'))
+2023-11-13 00:08:24,116 - ERROR - Функция get_orders_response ошибка HTTPSConnectionPool(host='api.partner.market.yandex.ru', port=443): Max retries exceeded with url: /campaigns/75593751/orders?status=PROCESSING&supplierShipmentDateFrom=14-11-2023&supplierShipmentDateTo=13-12-2023 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022172855050>, 'Connection to api.partner.market.yandex.ru timed out. (connect timeout=10)'))
+2023-11-13 00:08:24,116 - ERROR - Функция get_orders_response ошибка HTTPSConnectionPool(host='api.partner.market.yandex.ru', port=443): Max retries exceeded with url: /campaigns/75593751/orders?status=PROCESSING&supplierShipmentDateFrom=14-11-2023&supplierShipmentDateTo=13-12-2023 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022172855050>, 'Connection to api.partner.market.yandex.ru timed out. (connect timeout=10)'))
+2023-11-13 00:08:24,117 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:24,117 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:24,117 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:24,117 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:24,553 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-13 00:08:24,553 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-13 00:08:24,553 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-13 00:08:24,553 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-13 00:08:24,553 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:24,553 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:24,553 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:24,553 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:24,555 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:24,555 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:24,555 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:24,555 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:24,934 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-13 00:08:24,934 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-13 00:08:24,934 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-13 00:08:24,934 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-13 00:08:24,934 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:24,934 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:24,934 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:24,934 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:24,935 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:24,935 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:24,935 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:24,935 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:25,394 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-13 00:08:25,394 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-13 00:08:25,394 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-13 00:08:25,394 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-13 00:08:25,394 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:25,394 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:25,394 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:25,394 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:25,396 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:25,396 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:25,396 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:25,396 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:26,306 - INFO - Успешно получили список заказов из склада 68510184
+2023-11-13 00:08:26,306 - INFO - Успешно получили список заказов из склада 68510184
+2023-11-13 00:08:26,306 - INFO - Успешно получили список заказов из склада 68510184
+2023-11-13 00:08:26,306 - INFO - Успешно получили список заказов из склада 68510184
+2023-11-13 00:08:26,306 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:26,306 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:26,306 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:26,306 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:26,310 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:26,310 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:26,310 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:26,310 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:26,619 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-13 00:08:26,619 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-13 00:08:26,619 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-13 00:08:26,619 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-13 00:08:26,619 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:26,619 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:26,619 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:26,619 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:26,621 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:26,621 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:26,621 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:26,621 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:27,055 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-13 00:08:27,055 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-13 00:08:27,055 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-13 00:08:27,055 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-13 00:08:27,056 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,056 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,056 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,056 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,058 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:27,058 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:27,058 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:27,058 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:27,321 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-13 00:08:27,321 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-13 00:08:27,321 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-13 00:08:27,321 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-13 00:08:27,321 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,321 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,321 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,321 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,324 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:27,324 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:27,324 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:27,324 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:27,654 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-13 00:08:27,654 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-13 00:08:27,654 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-13 00:08:27,654 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-13 00:08:27,655 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,655 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,655 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,655 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,657 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,657 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,657 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,657 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,657 - CRITICAL - Функция get_orders_json не сработала
+2023-11-13 00:08:27,657 - CRITICAL - Функция get_orders_json не сработала
+2023-11-13 00:08:27,657 - CRITICAL - Функция get_orders_json не сработала
+2023-11-13 00:08:27,657 - CRITICAL - Функция get_orders_json не сработала
+2023-11-13 00:08:27,657 - ERROR - Функция get_orders_json ошибка not enough values to unpack (expected 2, got 0)
+2023-11-13 00:08:27,657 - ERROR - Функция get_orders_json ошибка not enough values to unpack (expected 2, got 0)
+2023-11-13 00:08:27,657 - ERROR - Функция get_orders_json ошибка not enough values to unpack (expected 2, got 0)
+2023-11-13 00:08:27,657 - ERROR - Функция get_orders_json ошибка not enough values to unpack (expected 2, got 0)
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,658 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:27,660 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,660 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,660 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,660 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:27,660 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:27,660 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:27,660 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:27,660 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:27,660 - INFO - Начало работы функции execute_campaign_requests
+2023-11-13 00:08:27,660 - INFO - Начало работы функции execute_campaign_requests
+2023-11-13 00:08:27,660 - INFO - Начало работы функции execute_campaign_requests
+2023-11-13 00:08:27,660 - INFO - Начало работы функции execute_campaign_requests
+2023-11-13 00:08:27,660 - INFO - Начало работы функции send_request
+2023-11-13 00:08:27,660 - INFO - Начало работы функции send_request
+2023-11-13 00:08:27,660 - INFO - Начало работы функции send_request
+2023-11-13 00:08:27,660 - INFO - Начало работы функции send_request
+2023-11-13 00:08:28,015 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68223651
+2023-11-13 00:08:28,015 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68223651
+2023-11-13 00:08:28,015 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68223651
+2023-11-13 00:08:28,015 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68223651
+2023-11-13 00:08:28,018 - INFO - Начало работы функции send_request
+2023-11-13 00:08:28,018 - INFO - Начало работы функции send_request
+2023-11-13 00:08:28,018 - INFO - Начало работы функции send_request
+2023-11-13 00:08:28,018 - INFO - Начало работы функции send_request
+2023-11-13 00:08:28,391 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68509920
+2023-11-13 00:08:28,391 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68509920
+2023-11-13 00:08:28,391 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68509920
+2023-11-13 00:08:28,391 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68509920
+2023-11-13 00:08:28,395 - INFO - Начало работы функции send_request
+2023-11-13 00:08:28,395 - INFO - Начало работы функции send_request
+2023-11-13 00:08:28,395 - INFO - Начало работы функции send_request
+2023-11-13 00:08:28,395 - INFO - Начало работы функции send_request
+2023-11-13 00:08:28,748 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68510184
+2023-11-13 00:08:28,748 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68510184
+2023-11-13 00:08:28,748 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68510184
+2023-11-13 00:08:28,748 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68510184
+2023-11-13 00:08:28,750 - INFO - Начало работы функции send_request
+2023-11-13 00:08:28,750 - INFO - Начало работы функции send_request
+2023-11-13 00:08:28,750 - INFO - Начало работы функции send_request
+2023-11-13 00:08:28,750 - INFO - Начало работы функции send_request
+2023-11-13 00:08:29,077 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 71927276
+2023-11-13 00:08:29,077 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 71927276
+2023-11-13 00:08:29,077 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 71927276
+2023-11-13 00:08:29,077 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 71927276
+2023-11-13 00:08:29,080 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:29,080 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:29,080 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:29,080 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:29,080 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:29,080 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:29,080 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:29,080 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:29,081 - INFO - Начало работы функции process_stocks
+2023-11-13 00:08:29,081 - INFO - Начало работы функции process_stocks
+2023-11-13 00:08:29,081 - INFO - Начало работы функции process_stocks
+2023-11-13 00:08:29,081 - INFO - Начало работы функции process_stocks
+2023-11-13 00:08:29,081 - DEBUG - Завершение работы функции process_stocks
+2023-11-13 00:08:29,081 - DEBUG - Завершение работы функции process_stocks
+2023-11-13 00:08:29,081 - DEBUG - Завершение работы функции process_stocks
+2023-11-13 00:08:29,081 - DEBUG - Завершение работы функции process_stocks
+2023-11-13 00:08:33,092 - INFO - Начало работы yandex api module
+2023-11-13 00:08:33,092 - INFO - Начало работы yandex api module
+2023-11-13 00:08:33,614 - INFO - Начало работы функции take_orders
+2023-11-13 00:08:33,614 - INFO - Начало работы функции take_orders
+2023-11-13 00:08:33,614 - INFO - Начало работы функции take_orders
+2023-11-13 00:08:33,614 - INFO - Начало работы функции take_orders
+2023-11-13 00:08:33,614 - INFO - Начало работы функции get_warehouses
+2023-11-13 00:08:33,614 - INFO - Начало работы функции get_warehouses
+2023-11-13 00:08:33,614 - INFO - Начало работы функции get_warehouses
+2023-11-13 00:08:33,614 - INFO - Начало работы функции get_warehouses
+2023-11-13 00:08:33,614 - INFO - Начало работы функции get_warehouses_response
+2023-11-13 00:08:33,614 - INFO - Начало работы функции get_warehouses_response
+2023-11-13 00:08:33,614 - INFO - Начало работы функции get_warehouses_response
+2023-11-13 00:08:33,614 - INFO - Начало работы функции get_warehouses_response
+2023-11-13 00:08:33,977 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-13 00:08:33,977 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-13 00:08:33,977 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-13 00:08:33,977 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-13 00:08:33,978 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:33,978 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:33,978 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:33,978 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:33,981 - INFO - Начало работы функции get_warehouses_list
+2023-11-13 00:08:33,981 - INFO - Начало работы функции get_warehouses_list
+2023-11-13 00:08:33,981 - INFO - Начало работы функции get_warehouses_list
+2023-11-13 00:08:33,981 - INFO - Начало работы функции get_warehouses_list
+2023-11-13 00:08:33,981 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:33,981 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:33,981 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:33,981 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:33,981 - DEBUG - Завершение работы функции get_warehouses
+2023-11-13 00:08:33,981 - DEBUG - Завершение работы функции get_warehouses
+2023-11-13 00:08:33,981 - DEBUG - Завершение работы функции get_warehouses
+2023-11-13 00:08:33,981 - DEBUG - Завершение работы функции get_warehouses
+2023-11-13 00:08:33,982 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:33,982 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:33,982 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:33,982 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:34,332 - INFO - Успешно получили список заказов из склада 75593751
+2023-11-13 00:08:34,332 - INFO - Успешно получили список заказов из склада 75593751
+2023-11-13 00:08:34,332 - INFO - Успешно получили список заказов из склада 75593751
+2023-11-13 00:08:34,332 - INFO - Успешно получили список заказов из склада 75593751
+2023-11-13 00:08:34,333 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:34,333 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:34,333 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:34,333 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:34,334 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:34,334 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:34,334 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:34,334 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:34,759 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-13 00:08:34,759 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-13 00:08:34,759 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-13 00:08:34,759 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-13 00:08:34,759 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:34,759 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:34,759 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:34,759 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:34,761 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:34,761 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:34,761 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:34,761 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:35,107 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-13 00:08:35,107 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-13 00:08:35,107 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-13 00:08:35,107 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-13 00:08:35,108 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:35,108 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:35,108 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:35,108 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:35,109 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:35,109 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:35,109 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:35,109 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:35,677 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-13 00:08:35,677 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-13 00:08:35,677 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-13 00:08:35,677 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-13 00:08:35,678 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:35,678 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:35,678 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:35,678 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:35,679 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:35,679 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:35,679 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:35,679 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:36,234 - INFO - Успешно получили список заказов из склада 68510184
+2023-11-13 00:08:36,234 - INFO - Успешно получили список заказов из склада 68510184
+2023-11-13 00:08:36,234 - INFO - Успешно получили список заказов из склада 68510184
+2023-11-13 00:08:36,234 - INFO - Успешно получили список заказов из склада 68510184
+2023-11-13 00:08:36,234 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:36,234 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:36,234 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:36,234 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:36,238 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:36,238 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:36,238 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:36,238 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:36,608 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-13 00:08:36,608 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-13 00:08:36,608 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-13 00:08:36,608 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-13 00:08:36,608 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:36,608 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:36,608 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:36,608 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:36,611 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:36,611 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:36,611 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:36,611 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:37,012 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-13 00:08:37,012 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-13 00:08:37,012 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-13 00:08:37,012 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-13 00:08:37,013 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,013 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,013 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,013 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,015 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:37,015 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:37,015 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:37,015 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:37,347 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-13 00:08:37,347 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-13 00:08:37,347 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-13 00:08:37,347 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-13 00:08:37,347 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,347 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,347 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,347 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,348 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:37,348 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:37,348 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:37,348 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:37,691 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-13 00:08:37,691 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-13 00:08:37,691 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-13 00:08:37,691 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-13 00:08:37,691 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,691 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,691 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,691 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,692 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,692 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,692 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,692 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,693 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,694 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,694 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,694 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,694 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,694 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,694 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,694 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,694 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,694 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,694 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,694 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,694 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,694 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:37,694 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:37,694 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:37,694 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:37,694 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:37,695 - INFO - Начало работы функции execute_campaign_requests
+2023-11-13 00:08:37,695 - INFO - Начало работы функции execute_campaign_requests
+2023-11-13 00:08:37,695 - INFO - Начало работы функции execute_campaign_requests
+2023-11-13 00:08:37,695 - INFO - Начало работы функции execute_campaign_requests
+2023-11-13 00:08:37,696 - INFO - Начало работы функции send_request
+2023-11-13 00:08:37,696 - INFO - Начало работы функции send_request
+2023-11-13 00:08:37,696 - INFO - Начало работы функции send_request
+2023-11-13 00:08:37,696 - INFO - Начало работы функции send_request
+2023-11-13 00:08:38,003 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68223651
+2023-11-13 00:08:38,003 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68223651
+2023-11-13 00:08:38,003 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68223651
+2023-11-13 00:08:38,003 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68223651
+2023-11-13 00:08:38,005 - INFO - Начало работы функции send_request
+2023-11-13 00:08:38,005 - INFO - Начало работы функции send_request
+2023-11-13 00:08:38,005 - INFO - Начало работы функции send_request
+2023-11-13 00:08:38,005 - INFO - Начало работы функции send_request
+2023-11-13 00:08:38,340 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68509920
+2023-11-13 00:08:38,340 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68509920
+2023-11-13 00:08:38,340 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68509920
+2023-11-13 00:08:38,340 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68509920
+2023-11-13 00:08:38,341 - INFO - Начало работы функции send_request
+2023-11-13 00:08:38,341 - INFO - Начало работы функции send_request
+2023-11-13 00:08:38,341 - INFO - Начало работы функции send_request
+2023-11-13 00:08:38,341 - INFO - Начало работы функции send_request
+2023-11-13 00:08:38,616 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68510184
+2023-11-13 00:08:38,616 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68510184
+2023-11-13 00:08:38,616 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68510184
+2023-11-13 00:08:38,616 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68510184
+2023-11-13 00:08:38,617 - INFO - Начало работы функции send_request
+2023-11-13 00:08:38,617 - INFO - Начало работы функции send_request
+2023-11-13 00:08:38,617 - INFO - Начало работы функции send_request
+2023-11-13 00:08:38,617 - INFO - Начало работы функции send_request
+2023-11-13 00:08:38,958 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 71927276
+2023-11-13 00:08:38,958 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 71927276
+2023-11-13 00:08:38,958 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 71927276
+2023-11-13 00:08:38,958 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 71927276
+2023-11-13 00:08:38,959 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:38,959 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:38,959 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:38,959 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:38,959 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:38,959 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:38,959 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:38,959 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:38,960 - INFO - Начало работы функции process_stocks
+2023-11-13 00:08:38,960 - INFO - Начало работы функции process_stocks
+2023-11-13 00:08:38,960 - INFO - Начало работы функции process_stocks
+2023-11-13 00:08:38,960 - INFO - Начало работы функции process_stocks
+2023-11-13 00:08:38,960 - DEBUG - Завершение работы функции process_stocks
+2023-11-13 00:08:38,960 - DEBUG - Завершение работы функции process_stocks
+2023-11-13 00:08:38,960 - DEBUG - Завершение работы функции process_stocks
+2023-11-13 00:08:38,960 - DEBUG - Завершение работы функции process_stocks
+2023-11-13 00:08:41,079 - INFO - Начало работы yandex api module
+2023-11-13 00:08:41,079 - INFO - Начало работы yandex api module
+2023-11-13 00:08:41,551 - INFO - Начало работы функции take_orders
+2023-11-13 00:08:41,551 - INFO - Начало работы функции take_orders
+2023-11-13 00:08:41,551 - INFO - Начало работы функции take_orders
+2023-11-13 00:08:41,551 - INFO - Начало работы функции take_orders
+2023-11-13 00:08:41,552 - INFO - Начало работы функции get_warehouses
+2023-11-13 00:08:41,552 - INFO - Начало работы функции get_warehouses
+2023-11-13 00:08:41,552 - INFO - Начало работы функции get_warehouses
+2023-11-13 00:08:41,552 - INFO - Начало работы функции get_warehouses
+2023-11-13 00:08:41,552 - INFO - Начало работы функции get_warehouses_response
+2023-11-13 00:08:41,552 - INFO - Начало работы функции get_warehouses_response
+2023-11-13 00:08:41,552 - INFO - Начало работы функции get_warehouses_response
+2023-11-13 00:08:41,552 - INFO - Начало работы функции get_warehouses_response
+2023-11-13 00:08:41,884 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-13 00:08:41,884 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-13 00:08:41,884 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-13 00:08:41,884 - INFO - Функция get_warehouses_response успешно получили список складов
+2023-11-13 00:08:41,884 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:41,884 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:41,884 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:41,884 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:41,885 - INFO - Начало работы функции get_warehouses_list
+2023-11-13 00:08:41,885 - INFO - Начало работы функции get_warehouses_list
+2023-11-13 00:08:41,885 - INFO - Начало работы функции get_warehouses_list
+2023-11-13 00:08:41,885 - INFO - Начало работы функции get_warehouses_list
+2023-11-13 00:08:41,886 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:41,886 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:41,886 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:41,886 - DEBUG - Завершение работы функции get_warehouses_list
+2023-11-13 00:08:41,886 - DEBUG - Завершение работы функции get_warehouses
+2023-11-13 00:08:41,886 - DEBUG - Завершение работы функции get_warehouses
+2023-11-13 00:08:41,886 - DEBUG - Завершение работы функции get_warehouses
+2023-11-13 00:08:41,886 - DEBUG - Завершение работы функции get_warehouses
+2023-11-13 00:08:41,886 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:41,886 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:41,886 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:41,886 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:42,220 - INFO - Успешно получили список заказов из склада 75593751
+2023-11-13 00:08:42,220 - INFO - Успешно получили список заказов из склада 75593751
+2023-11-13 00:08:42,220 - INFO - Успешно получили список заказов из склада 75593751
+2023-11-13 00:08:42,220 - INFO - Успешно получили список заказов из склада 75593751
+2023-11-13 00:08:42,220 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:42,220 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:42,220 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:42,220 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:42,223 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:42,223 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:42,223 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:42,223 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:42,652 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-13 00:08:42,652 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-13 00:08:42,652 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-13 00:08:42,652 - INFO - Успешно получили список заказов из склада 68223651
+2023-11-13 00:08:42,652 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:42,652 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:42,652 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:42,652 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:42,655 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:42,655 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:42,655 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:42,655 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:43,012 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-13 00:08:43,012 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-13 00:08:43,012 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-13 00:08:43,012 - INFO - Успешно получили список заказов из склада 68406114
+2023-11-13 00:08:43,012 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:43,012 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:43,012 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:43,012 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:43,015 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:43,015 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:43,015 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:43,015 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:43,448 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-13 00:08:43,448 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-13 00:08:43,448 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-13 00:08:43,448 - INFO - Успешно получили список заказов из склада 68509920
+2023-11-13 00:08:43,448 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:43,448 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:43,448 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:43,448 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:43,450 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:43,450 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:43,450 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:43,450 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:47,774 - INFO - Успешно получили список заказов из склада 68510184
+2023-11-13 00:08:47,774 - INFO - Успешно получили список заказов из склада 68510184
+2023-11-13 00:08:47,774 - INFO - Успешно получили список заказов из склада 68510184
+2023-11-13 00:08:47,774 - INFO - Успешно получили список заказов из склада 68510184
+2023-11-13 00:08:47,774 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:47,774 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:47,774 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:47,774 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:47,777 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:47,777 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:47,777 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:47,777 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:48,055 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-13 00:08:48,055 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-13 00:08:48,055 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-13 00:08:48,055 - INFO - Успешно получили список заказов из склада 68690058
+2023-11-13 00:08:48,056 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:48,056 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:48,056 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:48,056 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:48,057 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:48,057 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:48,057 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:48,057 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:48,449 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-13 00:08:48,449 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-13 00:08:48,449 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-13 00:08:48,449 - INFO - Успешно получили список заказов из склада 71927276
+2023-11-13 00:08:48,449 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:48,449 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:48,449 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:48,449 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:48,451 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:48,451 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:48,451 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:48,451 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:48,838 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-13 00:08:48,838 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-13 00:08:48,838 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-13 00:08:48,838 - INFO - Успешно получили список заказов из склада 71951954
+2023-11-13 00:08:48,838 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:48,838 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:48,838 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:48,838 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:48,840 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:48,840 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:48,840 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:48,840 - INFO - Начало работы функции get_orders_response
+2023-11-13 00:08:49,250 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-13 00:08:49,250 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-13 00:08:49,250 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-13 00:08:49,250 - INFO - Успешно получили список заказов из склада 72582429
+2023-11-13 00:08:49,250 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:49,250 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:49,250 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:49,250 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:49,251 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,251 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,251 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,251 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,252 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,253 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,253 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,253 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,253 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,253 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,253 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,253 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,253 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,253 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,253 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,253 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,253 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,253 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,253 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,253 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,253 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,253 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,253 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,253 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,253 - INFO - Начало работы функции get_orders_json
+2023-11-13 00:08:49,254 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,254 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,254 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,254 - DEBUG - Завершение работы функции get_orders_json
+2023-11-13 00:08:49,254 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:49,254 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:49,254 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:49,254 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:49,255 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:49,255 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:49,255 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:49,255 - INFO - Начало работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:49,256 - INFO - Начало работы функции execute_campaign_requests
+2023-11-13 00:08:49,256 - INFO - Начало работы функции execute_campaign_requests
+2023-11-13 00:08:49,256 - INFO - Начало работы функции execute_campaign_requests
+2023-11-13 00:08:49,256 - INFO - Начало работы функции execute_campaign_requests
+2023-11-13 00:08:49,256 - INFO - Начало работы функции send_request
+2023-11-13 00:08:49,256 - INFO - Начало работы функции send_request
+2023-11-13 00:08:49,256 - INFO - Начало работы функции send_request
+2023-11-13 00:08:49,256 - INFO - Начало работы функции send_request
+2023-11-13 00:08:49,590 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68223651
+2023-11-13 00:08:49,590 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68223651
+2023-11-13 00:08:49,590 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68223651
+2023-11-13 00:08:49,590 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68223651
+2023-11-13 00:08:49,592 - INFO - Начало работы функции send_request
+2023-11-13 00:08:49,592 - INFO - Начало работы функции send_request
+2023-11-13 00:08:49,592 - INFO - Начало работы функции send_request
+2023-11-13 00:08:49,592 - INFO - Начало работы функции send_request
+2023-11-13 00:08:49,960 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68509920
+2023-11-13 00:08:49,960 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68509920
+2023-11-13 00:08:49,960 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68509920
+2023-11-13 00:08:49,960 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68509920
+2023-11-13 00:08:49,961 - INFO - Начало работы функции send_request
+2023-11-13 00:08:49,961 - INFO - Начало работы функции send_request
+2023-11-13 00:08:49,961 - INFO - Начало работы функции send_request
+2023-11-13 00:08:49,961 - INFO - Начало работы функции send_request
+2023-11-13 00:08:50,396 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68510184
+2023-11-13 00:08:50,396 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68510184
+2023-11-13 00:08:50,396 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68510184
+2023-11-13 00:08:50,396 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 68510184
+2023-11-13 00:08:50,399 - INFO - Начало работы функции send_request
+2023-11-13 00:08:50,399 - INFO - Начало работы функции send_request
+2023-11-13 00:08:50,399 - INFO - Начало работы функции send_request
+2023-11-13 00:08:50,399 - INFO - Начало работы функции send_request
+2023-11-13 00:08:50,743 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 71927276
+2023-11-13 00:08:50,743 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 71927276
+2023-11-13 00:08:50,743 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 71927276
+2023-11-13 00:08:50,743 - DEBUG - Функция get_orders_response запрос успешно выполнен для кампании 71927276
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции get_orders_response
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции retrieve_stock_info_from_orders
+2023-11-13 00:08:50,745 - INFO - Начало работы функции process_stocks
+2023-11-13 00:08:50,745 - INFO - Начало работы функции process_stocks
+2023-11-13 00:08:50,745 - INFO - Начало работы функции process_stocks
+2023-11-13 00:08:50,745 - INFO - Начало работы функции process_stocks
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции process_stocks
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции process_stocks
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции process_stocks
+2023-11-13 00:08:50,745 - DEBUG - Завершение работы функции process_stocks
