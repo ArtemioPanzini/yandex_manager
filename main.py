@@ -36,7 +36,7 @@ def main():
         messages_big_orders = create_telegram_messages_from_orders(processed_stock_data)
 
         # Отсылаем сообщение
-        asyncio.run(send_telegram_messages_async(messages=messages_big_orders))
+        asyncio.run(send_telegram_messages_async(messages=messages_big_orders, chat_ids=config.telegram_chat_id_admin))
         logger.debug('Завершение работы функции main')
         print("success")
 

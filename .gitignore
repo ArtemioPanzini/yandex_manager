@@ -1,7 +1,13 @@
 # .gitignore
+venv/
+__pycache__/
+yandex_manager_venv/
 config.py
 *.log
 yandex_api_module.log
 telegram_api_module.log
 main.log
 helpers.log
+*.pyc
+*.pyo
+*.pyd

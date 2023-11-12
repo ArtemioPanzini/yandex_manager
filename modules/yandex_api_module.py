@@ -141,6 +141,7 @@ def take_orders(business_id, start=1, end=30) -> list:
         logger.error(f'Функция take_orders ошибка {e}')
         return []
 
+
 # Функция для отправки запроса на обновление запасов
 def send_request(campaign_id, offer_ids) -> dict:
     logger.info('Начало работы функции send_request')
