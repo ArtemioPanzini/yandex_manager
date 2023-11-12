@@ -1,11 +1,11 @@
 import logging
 import config
 import asyncio
-from modules.yandex_api_module import take_orders, take_request, process_stocks, take_stocks_info
-from modules.helpers import filter_by_count, group_by_warehouse, process_data
+from modules.yandex_api_module import take_orders, execute_campaign_requests, process_stocks, retrieve_stock_info_from_orders
+from modules.helpers import filter_by_count, group_by_warehouse, group_offers_by_warehouse
 from tests import test_config_data
 from logs.logging_config import setup_logging  # Импорт функции setup_logging из logging_config.py
-from modules.telegram_api_module import process_orders_from_tg, send_messages
+from modules.telegram_api_module import create_telegram_messages_from_orders, send_telegram_messages_async
 setup_logging()
 #    logger.debug('Это сообщение уровня DEBUG')
 #    logger.info('Это сообщение уровня INFO')
@@ -26,16 +26,16 @@ def main():
         filtered_orders = (filter_by_count(orders, 0))
 
         # Получаем остатки с яндекса
-        data_stocks = take_stocks_info(filtered_orders)
+        data_stocks = retrieve_stock_info_from_orders(filtered_orders)
 
         # Обрабатываем дату заказов
         processed_stock_data = process_stocks(data_stocks)  # test_config_data.response_data / data_stocks
 
         # Получаем сообщение для отсылки
-        messages_big_orders = process_orders_from_tg(processed_stock_data)
+        messages_big_orders = create_telegram_messages_from_orders(processed_stock_data)
 
         # Отсылаем сообщение
-        asyncio.run(send_messages(messages=messages_big_orders))
+        asyncio.run(send_telegram_messages_async(messages=messages_big_orders))
         print("success")
 
     except Exception as e:

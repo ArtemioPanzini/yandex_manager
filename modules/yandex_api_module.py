@@ -3,67 +3,108 @@ import json
 import config
 import logging
 import itertools
-from modules.helpers import apply_function_to_list, group_by_warehouse, process_data
+from modules.helpers import apply_function_to_list, group_offers_by_warehouse
 from retry import retry
 from modules.helpers import take_today_plus_arg
-from logs.logging_config import setup_logging  # Импорт функции setup_logging из logging_config.py
-
+from logs.logging_config import setup_logging
 setup_logging()
 #    logger.debug('Это сообщение уровня DEBUG')
 #    logger.info('Это сообщение уровня INFO')
 #    logger.warning('Это сообщение уровня WARNING')
 #    logger.error('Это сообщение уровня ERROR')
 #    logger.critical('Это сообщение уровня CRITICAL')
+
 logger = logging.getLogger('yandex_api_module')
 logger.info('Начало работы yandex api module')
 
 
+# Функция для получения ответа от API складов
 @retry(exceptions=requests.exceptions.RequestException, tries=3, delay=2, backoff=2, max_delay=10)
 def get_warehouses_response(business_id) -> json:
+    logger.info('Начало работы функции get_warehouses_response')
     url = f'https://api.partner.market.yandex.ru/businesses/{business_id}/warehouses'
-
-    response = requests.get(url, headers=config.headers, timeout=10)
-    if response.status_code == 200:
-        logger.info('Успешно получили список складов')
-        return response.json()
-    else:
-        logger.error(f'Не смогли получить список складов {response.status_code}')
+    try:
+        response = requests.get(url, headers=config.headers, timeout=10)
+        if response.status_code == 200:
+            logger.info('Функция get_warehouses_response успешно получили список складов')
+            logger.debug('Завершение работы функции get_warehouses_list')
+            return response.json()
+        else:
+            logger.error(f'Функция get_warehouses_response: Не смогли получить список складов {response.status_code}')
+            logger.debug('Завершение работы функции get_warehouses_list')
+            return None
+    except Exception as e:
+        logger.critical('Функция get_warehouses_response не сработала')
+        logger.error(f'Функция get_warehouses_response ошибка {e}')
         return None
 
 
+# Функция для получения списка идентификаторов кампаний из ответа API
 def get_warehouses_list(response) -> list:
-    campaign_ids = [warehouse['campaignId'] for warehouse in response['result']['warehouses']]
-    return campaign_ids
+    logger.info('Начало работы функции get_warehouses_list')
+
+    try:
+        campaign_ids = []
+        campaign_ids = [warehouse['campaignId'] for warehouse in response['result']['warehouses']]
+        logger.debug('Завершение работы функции get_warehouses_list')
+        return campaign_ids
+
+    except Exception as e:
+        logger.critical('Функция get_warehouses_list не сработала')
+        logger.error(f'Функция get_warehouses_list ошибка {e}')
+        return []
 
 
+# Функция для получения списка идентификаторов кампаний для данного бизнес-идентификатора
 def get_warehouses(business_id) -> list:
-    warehouses_response = get_warehouses_response(business_id)
-    list_warehouses = get_warehouses_list(warehouses_response)
-    return list_warehouses
+    logger.info('Начало работы функции get_warehouses')
+
+    try:
+        list_warehouses = []
+        warehouses_response = get_warehouses_response(business_id)
+        list_warehouses = get_warehouses_list(warehouses_response)
+        logger.debug('Завершение работы функции get_warehouses')
+        return list_warehouses
+
+    except Exception as e:
+        logger.critical('Функция get_warehouses не сработала')
+        logger.error(f'Функция get_warehouses ошибка {e}')
+        return []
 
 
+# Функция для получения ответа от API заказов
 @retry(exceptions=requests.exceptions.RequestException, tries=3, delay=2, backoff=2, max_delay=10)
 def get_orders_response(campaign_id, start=1, end=30) -> tuple:
-    url = f'https://api.partner.market.yandex.ru/campaigns/{campaign_id}/orders'
+    logger.info('Начало работы функции get_orders_response')
 
+    url = f'https://api.partner.market.yandex.ru/campaigns/{campaign_id}/orders'
     params = {
         "status": "PROCESSING",
         "supplierShipmentDateFrom": f"{take_today_plus_arg(start)}",
         "supplierShipmentDateTo": f"{take_today_plus_arg(end)}",
-
     }
 
-    response = requests.get(url, params=params, headers=config.headers, timeout=10)
+    try:
+        response = requests.get(url, params=params, headers=config.headers, timeout=10)
 
-    if response.status_code == 200:
-        logger.info(f'Успешно получили список заказов из склада {campaign_id}')
-        return response.json(), campaign_id
-    else:
-        logger.error(f'Не смогли получить список ордеров {campaign_id} {response.status_code}')
-        return None, campaign_id
+        if response.status_code == 200:
+            logger.info(f'Успешно получили список заказов из склада {campaign_id}')
+            logger.debug('Завершение работы функции get_orders_response')
+            return response.json(), campaign_id
+        else:
+            logger.error(f'Функция get_orders_response не получили список ордеров {campaign_id} {response.status_code}')
+            logger.debug('Завершение работы функции get_orders_response')
+            return None, campaign_id
+
+    except Exception as e:
+        logger.critical('Функция get_orders_response не сработала')
+        logger.error(f'Функция get_orders_response ошибка {e}')
+        return ()
 
 
+# Функция для преобразования ответа API в список словарей
 def get_orders_json(data) -> list:
+    logger.info('Начало работы функции get_orders_json')
     order, warehouse_id = data
     orders = order.get("orders", [])
     result = []
@@ -74,18 +115,24 @@ def get_orders_json(data) -> list:
             offer_id = item.get("offerId")
             count = item.get("count")
             result.append({"warehouse_id": warehouse_id, "order_id": order_id, "offer_id": offer_id, "count": count})
+    logger.debug('Завершение работы функции get_orders_response')
     return result
 
 
+# Функция для получения списка заказов для данного бизнес-идентификатора за определенные даты
 def take_orders(business_id, start=1, end=30) -> list:
+    logger.info('Начало работы функции take_orders')
     warehouse_list = get_warehouses(business_id)
     response = apply_function_to_list(warehouse_list, get_orders_response, start, end)
     orders = apply_function_to_list(response, get_orders_json)
     orders = list(itertools.chain.from_iterable(orders))
+    logger.debug('Завершение работы функции get_orders_response')
     return orders
 
 
-def send_request(campaign_id, offer_ids):
+# Функция для отправки запроса на обновление запасов
+def send_request(campaign_id, offer_ids) -> dict:
+    logger.info('Начало работы функции send_request')
     url = f'https://api.partner.market.yandex.ru/campaigns/{campaign_id}/offers/stocks'
     payload = {
         "offerIds": offer_ids
@@ -97,51 +144,78 @@ def send_request(campaign_id, offer_ids):
 
         # Обработка ответа
         if response.status_code == 200:
-            result['status'] = 'success'
-            result['message'] = f"Запрос успешно выполнен для кампании {campaign_id}"
+            logger.debug(f'Функция get_orders_response запрос успешно выполнен для кампании {campaign_id}')
             result['response'] = response.json()  # Вывести ответ API
+            return result
+
         else:
-            result['status'] = 'error'
-            result['message'] = f"Ошибка при выполнении запроса для кампании {campaign_id}"
-            result['response'] = response.text  # Вывести текст ошибки
+            logger.error(f'Функция send_request для кампании {campaign_id} ошибка {response.text}')
+            logger.debug('Завершение работы функции get_orders_response')
+            return {}
+
     except Exception as e:
-        result['status'] = 'exception'
-        result['message'] = f"Произошла ошибка: {str(e)}"
-    return result
+        logger.critical('Функция send_request не сработала')
+        logger.error(f'Функция send_request ошибка {e}')
 
 
-def take_request(data_dict):
+# Функция для выполнения запросов для каждой кампании
+def execute_campaign_requests(data_dict) -> list:
+    logger.info('Начало работы функции execute_campaign_requests')
     results = []
-    for campaign_id, offer_ids in data_dict.items():
-        result = send_request(campaign_id, offer_ids)
-        results.append(result)
-    return results
+    try:
+        for campaign_id, offer_ids in data_dict.items():
+            result = send_request(campaign_id, offer_ids)
+            results.append(result)
+        logger.debug('Завершение работы функции get_orders_response')
+        return results
+
+    except Exception as e:
+        logger.critical('Функция execute_campaign_requests не сработала')
+        logger.error(f'Функция process_stocks ошибка {e}')
+        return []
 
 
-def process_stocks(response_list):
+# Функция для обработки ответов на запросы обновления запасов
+def process_stocks(response_list) -> list:
+    logger.info('Начало работы функции process_stocks')
     result_list = []
 
-    for response_entry in response_list:
-        campaign_id = response_entry.get('response', {}).get('result', {}).get('warehouses', [{}])[0].get('warehouseId')
+    try:
+        for response_entry in response_list:
+            campaign_id = response_entry.get('response', {}).get('result', {}).get('warehouses', [{}])[0].get('warehouseId')
 
-        for warehouse in response_entry.get('response', {}).get('result', {}).get('warehouses', []):
-            for offer in warehouse.get('offers', []):
-                available_count = next((s['count'] for s in offer['stocks'] if s['type'] == 'AVAILABLE'), 0)
-                freeze_count = next((s['count'] for s in offer['stocks'] if s['type'] == 'FREEZE'), 0)
+            for warehouse in response_entry.get('response', {}).get('result', {}).get('warehouses', []):
+                for offer in warehouse.get('offers', []):
+                    available_count = next((s['count'] for s in offer['stocks'] if s['type'] == 'AVAILABLE'), 0)
+                    freeze_count = next((s['count'] for s in offer['stocks'] if s['type'] == 'FREEZE'), 0)
 
-                if available_count < (2 * freeze_count):
-                    result_list.append({
-                        'campaignId': campaign_id,
-                        'offerId': offer['offerId'],
-                        'warehouseId': warehouse['warehouseId'],
-                        'availableCount': available_count,
-                        'freezeCount': freeze_count
-                    })
+                    if available_count < (2 * freeze_count):
+                        result_list.append({
+                            'campaignId': campaign_id,
+                            'offerId': offer['offerId'],
+                            'warehouseId': warehouse['warehouseId'],
+                            'availableCount': available_count,
+                            'freezeCount': freeze_count
+                        })
+        logger.debug('Завершение работы функции process_stocks')
+        return result_list
 
-    return result_list
+    except Exception as e:
+        logger.critical('Функция process_stocks не сработала')
+        logger.error(f'Функция process_stocks ошибка {e}')
+        return []
 
 
-def take_stocks_info(filtered_orders):
-    processed_data_stocks = process_data(filtered_orders)
-    take_request1 = take_request(processed_data_stocks)
-    return take_request1
+# Извлекаем информацию о запасах из заказов
+def retrieve_stock_info_from_orders(filtered_orders) -> list:
+    logger.info('Начало работы функции retrieve_stock_info_from_orders')
+    try:
+        processed_data_stocks = group_offers_by_warehouse(filtered_orders)
+        execute_data = execute_campaign_requests(processed_data_stocks)
+        logger.debug('Завершение работы функции retrieve_stock_info_from_orders')
+        return execute_data
+
+    except Exception as e:
+        logger.critical('Функция retrieve_stock_info_from_orders не сработала')
+        logger.error(f'Функция retrieve_stock_info_from_orders ошибка {e}')
+        return []
