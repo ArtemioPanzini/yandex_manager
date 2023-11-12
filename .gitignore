@@ -1,3 +1,7 @@
 # .gitignore
 config.py
 *.log
+yandex_api_module.log
+telegram_api_module.log
+main.log
+helpers.log
