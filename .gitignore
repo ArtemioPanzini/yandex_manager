@@ -5,6 +5,7 @@ yandex_manager_venv/
 .idea/
 config.py
 *.log
+**/__init__.py
 yandex_api_module.log
 telegram_api_module.log
 main.log
