@@ -2,6 +2,7 @@
 venv/
 __pycache__/
 yandex_manager_venv/
+.idea/
 config.py
 *.log
 yandex_api_module.log
