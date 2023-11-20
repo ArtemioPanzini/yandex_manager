@@ -10,7 +10,7 @@ from modules.label_tg import telegram_api_label_tg_module, yandex_api_label_tg_m
 
 
 def convert_pdf_to_images(pdf_bytes):
-    images = convert_from_bytes(pdf_bytes, fmt='jpeg', poppler_path=r'C:\Program Files\poppler-23.11.0\Library\bin')
+    images = convert_from_bytes(pdf_bytes, fmt='jpeg')
     return images
 
 
@@ -24,7 +24,7 @@ def create_image_with_text(img, text_list, font_size=25):
     new_img.paste(img.crop((0, 0, img.width, 50)), (0, new_height - 50))
 
     draw = ImageDraw.Draw(new_img)
-    font_path = r'C:\Windows\Fonts\Calibri.ttf'
+    font_path = '/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf'
     font = ImageFont.truetype(font_path, font_size)
     text_color = (0, 0, 0)
     text_positions = [(30, 940), (30, 990), (315, 940), (315, 990)]
