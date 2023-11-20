@@ -1,8 +1,8 @@
 import config
 import asyncio
 from modules.yandex_api_module import take_orders_combine
-from take_orders_data import process_orders
-from work_with_image import create_image_with_text_and_pdf
+from modules.label_tg.take_orders_data import process_orders
+from modules.label_tg.work_with_image import create_image_with_text_and_pdf
 from modules.telegram_api_module import send_messages_to_users
 
 
