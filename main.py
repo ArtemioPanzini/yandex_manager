@@ -26,7 +26,7 @@ def main():
         # Фильтруем, если надо по минимальному количеству в заказе
         filtered_orders = (filter_by_count(orders, 0))
 
-        # Получаем остатки с яндекса
+        # Получаем остатки с яндекса на основе заказанных артикулов
         data_stocks = retrieve_stock_info_from_orders(filtered_orders)
 
         # Обрабатываем дату заказов
@@ -36,7 +36,7 @@ def main():
         messages_big_orders = create_telegram_messages_from_orders(processed_stock_data)
 
         # Отсылаем сообщение
-        asyncio.run(send_telegram_messages_async(messages=messages_big_orders, chat_ids=config.telegram_chat_id_admin))
+        asyncio.run(send_telegram_messages_async(messages=messages_big_orders, chat_ids=config.telegram_chat_id_admin_list))
         logger.debug('Завершение работы функции main')
         print("success")
 

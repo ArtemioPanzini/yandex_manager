@@ -50,3 +50,13 @@ async def send_telegram_messages_async(token=config.telegram_api_token, chat_ids
     except Exception as e:
         logger.error(f'Функция send_telegram_messages_async ошибка {e}')
         return None
+
+
+async def send_messages_to_users(message_dict):
+    bot = Bot(token=config.telegram_api_token)
+    for user_id, message in message_dict.items():
+        try:
+            await bot.send_message(chat_id=user_id, text=message)
+            print(f"Сообщение отправлено пользователю с ID {user_id}")
+        except Exception as e:
+            print(f"Ошибка при отправке сообщения пользователю с ID {user_id}: {e}")

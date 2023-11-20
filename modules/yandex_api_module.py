@@ -18,6 +18,37 @@ logger = logging.getLogger('yandex_api_module')
 logger.info('Начало работы yandex api module')
 
 
+# Функция для получения списка заказов для данного бизнес-идентификатора за определенные даты
+def take_orders(business_id, start=1, end=30) -> list:
+    logger.info('Начало работы функции take_orders')
+    try:
+        warehouse_list = get_warehouses(business_id)
+        response = apply_function_to_list(warehouse_list, get_orders_response, start, end)
+        orders = apply_function_to_list(response, get_orders_json)
+        orders = list(itertools.chain.from_iterable(orders))
+        logger.debug('Завершение работы функции get_orders_response')
+        return orders
+    except Exception as e:
+        logger.critical('Функция take_orders не сработала')
+        logger.error(f'Функция take_orders ошибка {e}')
+        return []
+
+
+def take_orders_combine(business_id, start=1, end=30) -> list:
+    logger.info('Начало работы функции take_orders')
+    try:
+        warehouse_list = get_warehouses(business_id)
+        response = apply_function_to_list(warehouse_list, get_orders_response, start, end)
+        orders = apply_function_to_list(response, get_orders_json_combine)
+        orders = [item for item in orders if item]
+        logger.debug('Завершение работы функции get_orders_response')
+        return orders
+    except Exception as e:
+        logger.critical('Функция take_orders не сработала')
+        logger.error(f'Функция take_orders ошибка {e}')
+        return []
+
+
 # Функция для получения ответа от API складов
 @retry(exceptions=requests.exceptions.RequestException, tries=3, delay=2, backoff=2, max_delay=10)
 def get_warehouses_response(business_id) -> json:
@@ -126,20 +157,38 @@ def get_orders_json(data) -> list:
         return []
 
 
-# Функция для получения списка заказов для данного бизнес-идентификатора за определенные даты
-def take_orders(business_id, start=1, end=30) -> list:
-    logger.info('Начало работы функции take_orders')
+def get_orders_json_combine(data) -> dict:
+    logger.info('Начало работы функции get_orders_json')
+
     try:
-        warehouse_list = get_warehouses(business_id)
-        response = apply_function_to_list(warehouse_list, get_orders_response, start, end)
-        orders = apply_function_to_list(response, get_orders_json)
-        orders = list(itertools.chain.from_iterable(orders))
-        logger.debug('Завершение работы функции get_orders_response')
-        return orders
+        order, warehouse_id = data
+        orders = order.get("orders", [])
+        result = {}
+
+        for order in orders:
+            order_id = order.get("id")
+            items = order.get("items", [])
+
+            # Initialize the result dictionary for the warehouse and order if not present
+            if warehouse_id not in result:
+                result[warehouse_id] = {}
+
+            if order_id not in result[warehouse_id]:
+                result[warehouse_id][order_id] = {"items": []}
+
+            # Append items to the items list
+            for item in items:
+                offer_id = item.get("offerId")
+                count = item.get("count")
+                result[warehouse_id][order_id]["items"].append({"offer_id": offer_id, "count": count})
+
+        logger.debug('Завершение работы функции get_orders_json')
+        return result
+
     except Exception as e:
-        logger.critical('Функция take_orders не сработала')
-        logger.error(f'Функция take_orders ошибка {e}')
-        return []
+        logger.critical('Функция get_orders_json не сработала')
+        logger.error(f'Функция get_orders_json ошибка {e}')
+        return {}
 
 
 # Функция для отправки запроса на обновление запасов
