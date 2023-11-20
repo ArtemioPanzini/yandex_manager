@@ -17,7 +17,7 @@ async def main_label_tg():
                 i += 1
                 await create_image_with_text_and_pdf(campaign_id=warehouse_id, order_id=order_id,
                                                      api_key=config.yandex_api_token, text_list=text_list,
-                                                     chat_id=config.telegram_chat_id_admin_list,
+                                                     chat_id=config.telegram_chat_id_client,
                                                      telegram_text=message_telegram)
 
         await send_messages_to_users({config.telegram_chat_id_admin: f'{i} Картинок отправлено'})
