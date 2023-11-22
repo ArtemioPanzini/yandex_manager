@@ -8,7 +8,7 @@ path_to_activate="/home/scrapping/yandex_manager/venv/bin/activate"
 source "$path_to_activate"
 echo "all good"
 # Путь к вашему основному скрипту
-path_to_script="/home/scrapping/yandex_manager/main.py"
+path_to_script="/home/scrapping/yandex_manager/main_label_tg.py"
 
 # Запустить ваш основной скрипт
 python "$path_to_script"
