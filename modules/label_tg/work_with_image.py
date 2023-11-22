@@ -1,9 +1,6 @@
 from pdf2image import convert_from_bytes
-import base64
 import requests
-from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont
-import asyncio
 
 import config
 from modules.label_tg import telegram_api_label_tg_module, yandex_api_label_tg_module
@@ -35,22 +32,25 @@ def create_image_with_text(img, text_list, font_size=25):
     return new_img
 
 
-async def create_image_with_text_and_pdf(campaign_id, order_id, api_key, text_list, font_size=25, bot_token=config.telegram_api_token,
+async def create_image_with_text_and_pdf(campaign_id, order_id, api_key, text_list, font_size=25,
+                                         bot_token=config.telegram_api_token,
                                          chat_id=None, telegram_text=None):
+    images = []
     try:
         pdf_bytes = yandex_api_label_tg_module.get_pdf(campaign_id, order_id, api_key)
         images = convert_pdf_to_images(pdf_bytes)
-        img = images[0] if images else Image.new('RGB', (500, 500), 'white')
-        new_img = create_image_with_text(img, text_list, font_size)
+        for i in range(len(images)):
+            img = images[i] if images else Image.new('RGB', (500, 500), 'white')
+            new_img = create_image_with_text(img, text_list, font_size)
+            images[i] = new_img
 
         if bot_token and chat_id and telegram_text:
-            await telegram_api_label_tg_module.send_image_to_telegram(bot_token, chat_id, new_img, telegram_text)
+            await telegram_api_label_tg_module.send_combined_image_to_telegram(bot_token, chat_id,
+                                                                               images, telegram_text)
 
     except requests.exceptions.RequestException as e:
-        print(f"Ошибка при выполнении запроса: {e}")
-    except ValueError as ve:
-        print(f"Ошибка при конвертации base64 в байты: {ve}")
-    except IOError as ioe:
-        print(f"Ошибка ввода-вывода: {ioe}")
-    except Exception as e:
-        print(f"Другая ошибка: {e}")
+        print(f"запрос: {e}")
+    return images
+
+
+
