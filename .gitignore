@@ -4,9 +4,9 @@ __pycache__/
 yandex_manager_venv/
 .idea/
 config.py
-*.log
+**.log
 **/__init__.py
-yandex_api_module.log
+logs/yandex_api_module.log
 telegram_api_module.log
 main.log
 helpers.log
