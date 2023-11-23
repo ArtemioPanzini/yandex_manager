@@ -37,7 +37,7 @@ async def main_label_tg():
 
         if images:
             await send_document_to_telegram(bot_token=config.telegram_api_token,
-                                            chat_ids=config.telegram_chat_id_admin_list,
+                                            chat_ids=config.telegram_chat_id_client,
                                             images=images, text=message_telegram)
 
         await send_messages_to_users({config.telegram_chat_id_admin: f'Pdf из {i} картинок отправлено'})
