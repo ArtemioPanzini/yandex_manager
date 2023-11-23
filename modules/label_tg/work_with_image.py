@@ -18,7 +18,7 @@ def create_image_with_text(img, text_list, font_size=25):
     new_height = img.height + 40
     new_img = Image.new("RGB", (img.width, new_height), (255, 255, 255))
     new_img.paste(cropped_img, (0, 0))
-    new_img.paste(img.crop((0, 0, img.width, 50)), (0, new_height - 50))
+    new_img.paste(img.crop((0, 0, img.width, 40)), (0, new_height - 50))
 
     draw = ImageDraw.Draw(new_img)
     font_path = '/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf'
